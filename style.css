@@ -1,0 +1,152 @@
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: var(--light-gray);
+}
+
+.white-box {
+    position: absolute;
+    width: 650px;
+    height: 200px;
+    background-color: white;
+    top: 10rem;
+    left: 38rem;
+}
+
+.white-box h2 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: var(--cyan);
+}
+
+.white-box h4 {
+    position: absolute;
+    top: 5rem;
+    left: 2rem;
+    color: var(--bright-yellow);
+}
+
+.white-box p {
+    position: absolute;
+    top: 7rem;
+    left: 2rem;
+    color: var(--grayish-blue);
+    max-width: 57ch;
+}
+
+.left-box {
+    width: 315px;
+    height: 263px;
+    background-color: var(--cyan);
+    position: absolute;
+    top: 22.5rem;
+    left: 38rem;
+    border-bottom-left-radius: 9px;
+}
+
+.left-box h3 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: var(--light-gray);
+}
+
+.left-box h1 {
+    position: absolute;
+    top: 4.5rem;
+    left: 2rem;
+    color: var(--light-gray);
+}
+
+.left-box h4 {
+    position: absolute;
+    top: 5rem;
+    left: 7rem;
+    color: #65d5d6;
+}
+
+.left-box p {
+    position: absolute;
+    top: 7.5rem;
+    left: 2rem;
+    color: var(--light-gray);
+}
+
+.left-box a {
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+    width: 242px;
+    height: 40px;
+    background-color: var(--bright-yellow);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.right-box {
+    width: 339px;
+    height: 263px;
+    background-color: #4abebd;
+    position: absolute;
+    top: 22.5rem;
+    left: 57.5rem;
+    border-bottom-right-radius: 9px;
+}
+
+.right-box h3 {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: var(--light-gray);
+}
+
+.right-box p {
+    position: absolute;
+    left: 2rem;
+    color: var(--light-gray);
+}
+
+.right-box p:first-of-type {
+    top: 4rem;
+}
+
+.right-box p:nth-of-type(2) {
+    top: 5.5rem;
+}
+
+.right-box p:nth-of-type(3) {
+    top: 7rem;
+}
+
+.right-box p:nth-of-type(4) {
+    top: 8.5rem;
+}
+
+.right-box p:nth-of-type(5) {
+    top: 10rem;
+}
+
+.right-box p:nth-of-type(6) {
+    top: 11.5rem;
+}
+
+.right-box p:nth-of-type(7) {
+    top: 13rem;
+}
+
